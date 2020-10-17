@@ -41,12 +41,13 @@ class Directory extends Component{
 
     render() {
     return(
+      // map over state and destructured params
     <div className='directory-menu'>
-        {this.state.sections.map(({ imageUrl, title, id }) => (
-            <MenuItem title={title} id={id} />
+        {this.state.sections.map(({ title, id, imageUrl, size }) => (
+            <MenuItem key={id} title={title} imageUrl={imageUrl} size={size}/>
         ))}  
     </div>
     )
 }}
 
-export default Directory
+export default Directory;

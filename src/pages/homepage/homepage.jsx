@@ -5,7 +5,7 @@ import './homepage-styles.scss'
 const Homepg = () =>{
     return(
     <div className='homepage'>
-       <Directory />
+       <Directory/>
     </div>
     )
 
