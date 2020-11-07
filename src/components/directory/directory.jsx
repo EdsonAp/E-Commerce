@@ -7,32 +7,32 @@ class Directory extends Component{
         sections: [
             {
               title: 'hats',
-              imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+              imageUrl: 'https://images.unsplash.com/photo-1565839412225-98641b2d7b5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
               id: 1,
               linkUrl: 'hats'
             },
             {
               title: 'jackets',
-              imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+              imageUrl: 'https://images.unsplash.com/photo-1505022610485-0249ba5b3675?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
               id: 2,
               linkUrl: 'jackets'
             },
             {
-              title: 'sneakers',
-              imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+              title: 'shoes',
+              imageUrl: 'https://images.unsplash.com/photo-1572250802606-70d7bac06e62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80',
               id: 3,
               linkUrl: 'sneakers'
             },
             {
               title: 'womens',
-              imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+              imageUrl: 'https://images.unsplash.com/photo-1510965168540-03ea63c46e22?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
               size: 'large',
               id: 4,
               linkUrl: 'womens'
             },
             {
               title: 'mens',
-              imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+              imageUrl: 'https://images.unsplash.com/photo-1446214814726-e6074845b4ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1061&q=80',
               size: 'large',
               id: 5,
               linkUrl: 'mens'
