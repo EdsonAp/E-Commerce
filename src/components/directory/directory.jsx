@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MenuItem from '../menu-item/menu-tems/menu-item-component'
+import MenuItem from '../menu-item/menu-items/menu-item-component'
 import './directory.scss'
 
 class Directory extends Component{
@@ -19,7 +19,7 @@ class Directory extends Component{
             },
             {
               title: 'shoes',
-              imageUrl: 'https://images.unsplash.com/photo-1572250802606-70d7bac06e62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80',
+              imageUrl: 'https://images.unsplash.com/photo-1514989940723-e8e51635b782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
               id: 3,
               linkUrl: 'sneakers'
             },
@@ -32,7 +32,7 @@ class Directory extends Component{
             },
             {
               title: 'mens',
-              imageUrl: 'https://images.unsplash.com/photo-1446214814726-e6074845b4ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1061&q=80',
+              imageUrl: 'https://images.unsplash.com/photo-1434510423563-c7e99bbc5bbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80',
               size: 'large',
               id: 5,
               linkUrl: 'mens'
