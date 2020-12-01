@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 
-class App extends Component{
+class ShopPage extends Component{
+    constructor(props){
+        super(props);
+
+        this.state = {
+        
+        }
+    }
+
     render(){
         return(
             <div> Shop </div>
