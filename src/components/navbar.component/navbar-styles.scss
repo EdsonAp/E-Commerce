@@ -1,0 +1,36 @@
+.navbar{
+    background-color:white;
+    // color: black;
+    width:100%;
+    display: flex;
+    height: 90px;
+
+    .navbar-item{
+        // color:black;
+        // width: 300px;
+        padding: 25px;
+        justify-content: flex-end;
+    }
+
+    .company-logo{
+        height: 95px;
+    }
+
+    .navbar-item:hover{
+        border-bottom: 3px solid #FFCC04;
+    }
+
+    a,navbar-item{
+        color: black;
+    }
+
+    a:hover{
+        color: #024BAD;
+        // font-size: 20px;
+
+    }
+
+    .company-logo{
+        width: 100px;
+    }
+}
