@@ -13,12 +13,14 @@ const Navbar = () =>(
         </div>
         <div>
             <Link to='/'>
-            <img src={logo} alt='company logo' className='company-logo' />
+            <img src={logo} alt='company-logo' className='company-logo' />
             </Link>
         </div>
-        
         <div className='navbar-item'>
             <Link to='/Register'>Register</Link>
+        </div>
+        <div className='navbar-item'>
+            <Link to='/Register'>About</Link>
         </div>
     </div>
 )
