@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar-styles.scss'
 import logo from '../../Assets/logo.png'
-console.log(logo)
+
 const Navbar = () =>(
     <div className='navbar'>
         <div className='navbar-item'>
@@ -20,7 +20,7 @@ const Navbar = () =>(
             <Link to='/Register'>Register</Link>
         </div>
         <div className='navbar-item'>
-            <Link to='/Register'>About</Link>
+            <Link to='/About'>About</Link>
         </div>
     </div>
 )

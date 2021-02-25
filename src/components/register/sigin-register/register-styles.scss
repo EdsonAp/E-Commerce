@@ -1,5 +1,31 @@
 .register-log-page{
     display: flex;
     align-items: center;
-    padding:10px;
+    width: auto;
+    position: inherit;
+}
+
+.input{
+    height: 40px;
+    width: 100%;
+    margin: 10px;
+}
+
+.register-title{
+    color: #12253D;
+    font-size: 50px;
+}
+
+.submit-btn{
+    width:50%;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    background: #E27396;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #F4F4F9;
+    position: relative;
+    justify-content: center;
 }

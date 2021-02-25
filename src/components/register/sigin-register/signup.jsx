@@ -8,15 +8,15 @@ const Signup = () =>(
         <span className='subtitle'>Don't have and account with us?</span>
         <form>
             <label type='text' placeholder='Name'></label>
-            <input name='name' type='name' placeholder='Name'/>
+            <input name='name' type='name' placeholder='Name' className='input'/>
             <br/>
             <label type='text'></label>
-            <input name='email' type='email' placeholder='Email'/>
+            <input name='email' type='email' placeholder='Email' className='input'/>
             <br/>
             <label type='password'></label>
-            <input name='password' type='password' placeholder='Password'/>
+            <input name='password' type='password' placeholder='Password' className='input'/>
             <br/>
-            <input type='submit' value='Submit Registration'/>
+            <input type='submit' value='Submit Registration' className='submit-btn'/>
         </form>
     </div>
     </>

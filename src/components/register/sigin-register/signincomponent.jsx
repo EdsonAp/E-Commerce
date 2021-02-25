@@ -30,6 +30,7 @@ class Signin extends Component {
             placeholder='Email'
             value={this.state.email} 
             onChange={this.getValue}
+            className='input'
           />
           <br />
           <label></label>
@@ -38,9 +39,10 @@ class Signin extends Component {
             type="password" 
             value={this.state.password} 
             onChange={this.getValue} 
+            className='input'
             placeholder='Password'/>
           <br />
-          <input type="submit" value="Submit Form" />
+          <input type="submit" value="Submit Form" className='submit-btn'/>
         </form>
       </div>
     );
